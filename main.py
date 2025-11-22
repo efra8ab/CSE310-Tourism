@@ -1,6 +1,7 @@
 # important libraries 
 from pathlib import Path
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #setting up our paths
 data_path = Path(__file__).parent / "data" / "travel_items.csv"
@@ -93,6 +94,27 @@ def main():
     #keep only the columns we care about and sort from oldest to newest year
     global_totals = global_totals[['Year', 'Receipts_USD_Billions']].sort_values('Year')
 
+
+##### Step 6.5 - Quick charts for the outputs
+    output_path.mkdir(exist_ok=True)
+
+    fig, ax = plt.subplots()
+    ax.bar(top_countries['Country'], top_countries[f'{last_year}_Receipts_USD_Billions'])
+    ax.set_ylabel('USD billions')
+    ax.set_title(f'Top tourism earners, {last_year}')
+    plt.xticks(rotation=30, ha='right')
+    fig.tight_layout()
+    fig.savefig(output_path / f'top_countries_{last_year}.png', dpi=150)
+    plt.close(fig)
+
+    fig, ax = plt.subplots()
+    ax.plot(global_totals['Year'], global_totals['Receipts_USD_Billions'], marker='o')
+    ax.set_ylabel('USD billions')
+    ax.set_xlabel('Year')
+    ax.set_title('Global tourism receipts (last 5 years with data)')
+    fig.tight_layout()
+    fig.savefig(output_path / 'global_receipts_recent_years.png', dpi=150)
+    plt.close(fig)
 
 ##### Step 7 - wrap up 
     ##saving our tables into CSV files
