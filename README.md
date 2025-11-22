@@ -13,6 +13,8 @@ https://data.worldbank.org/indicator/ST.INT.TVLR.CD?view=map&year=1995
   recent year that has numbers.
 - `outputs/global_receipts_recent_years.csv` → world totals for the last five
   years with data (all countries, not just the top five).
+- `outputs/top_countries_<latest_year>.png` → bar chart of the top five (USD billions).
+- `outputs/global_receipts_recent_years.png` → line chart of world totals for the last five years.
 
 ### How to run it
 ```bash
