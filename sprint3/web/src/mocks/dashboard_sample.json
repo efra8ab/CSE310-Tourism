@@ -1,0 +1,63 @@
+{
+  "latestYear": 2020,
+  "years": [2016, 2017, 2018, 2019, 2020],
+  "regions": [
+    "All",
+    "Europe & Central Asia",
+    "East Asia & Pacific",
+    "North America",
+    "Latin America & Caribbean",
+    "Middle East & North Africa",
+    "South Asia"
+  ],
+  "topCountries": [
+    {"country": "United States", "code": "USA", "region": "North America", "year": 2020, "receiptsUsd": 72812000000.0, "receiptsUsdBillions": 72.81},
+    {"country": "France", "code": "FRA", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 32646000000.0, "receiptsUsdBillions": 32.65},
+    {"country": "Australia", "code": "AUS", "region": "East Asia & Pacific", "year": 2020, "receiptsUsd": 25667000000.0, "receiptsUsdBillions": 25.67},
+    {"country": "Germany", "code": "DEU", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 22049000000.0, "receiptsUsdBillions": 22.05},
+    {"country": "Italy", "code": "ITA", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 20036000000.0, "receiptsUsdBillions": 20.04}
+  ],
+  "totalsByYear": [
+    {"year": 2016, "totalUsdBillions": 1183.82},
+    {"year": 2017, "totalUsdBillions": 1278.99},
+    {"year": 2018, "totalUsdBillions": 1383.78},
+    {"year": 2019, "totalUsdBillions": 1392.18},
+    {"year": 2020, "totalUsdBillions": 507.07}
+  ],
+  "regionTotals": [
+    {"region": "Europe & Central Asia", "year": 2019, "totalUsdBillions": 562.99},
+    {"region": "East Asia & Pacific", "year": 2019, "totalUsdBillions": 363.2},
+    {"region": "North America", "year": 2019, "totalUsdBillions": 227.98},
+    {"region": "Latin America & Caribbean", "year": 2019, "totalUsdBillions": 92.31},
+    {"region": "Middle East & North Africa", "year": 2019, "totalUsdBillions": 80.01},
+    {"region": "South Asia", "year": 2019, "totalUsdBillions": 38.7},
+    {"region": "Europe & Central Asia", "year": 2020, "totalUsdBillions": 230.22},
+    {"region": "East Asia & Pacific", "year": 2020, "totalUsdBillions": 108.78},
+    {"region": "North America", "year": 2020, "totalUsdBillions": 84.16},
+    {"region": "Latin America & Caribbean", "year": 2020, "totalUsdBillions": 33.59},
+    {"region": "Middle East & North Africa", "year": 2020, "totalUsdBillions": 26.61},
+    {"region": "South Asia", "year": 2020, "totalUsdBillions": 15.61}
+  ],
+  "tableRows": [
+    {"country": "United States", "code": "USA", "region": "North America", "year": 2020, "receiptsUsd": 72812000000.0, "receiptsUsdBillions": 72.81},
+    {"country": "France", "code": "FRA", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 32646000000.0, "receiptsUsdBillions": 32.65},
+    {"country": "Australia", "code": "AUS", "region": "East Asia & Pacific", "year": 2020, "receiptsUsd": 25667000000.0, "receiptsUsdBillions": 25.67},
+    {"country": "Germany", "code": "DEU", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 22049000000.0, "receiptsUsdBillions": 22.05},
+    {"country": "Italy", "code": "ITA", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 20036000000.0, "receiptsUsdBillions": 20.04},
+    {"country": "United Kingdom", "code": "GBR", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 19098000000.0, "receiptsUsdBillions": 19.1},
+    {"country": "Spain", "code": "ESP", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 18352000000.0, "receiptsUsdBillions": 18.35},
+    {"country": "China", "code": "CHN", "region": "East Asia & Pacific", "year": 2020, "receiptsUsd": 14233000000.0, "receiptsUsdBillions": 14.23},
+    {"country": "Thailand", "code": "THA", "region": "East Asia & Pacific", "year": 2020, "receiptsUsd": 14198000000.0, "receiptsUsdBillions": 14.2},
+    {"country": "Austria", "code": "AUT", "region": "Europe & Central Asia", "year": 2020, "receiptsUsd": 13881000000.0, "receiptsUsdBillions": 13.88},
+    {"country": "United States", "code": "USA", "region": "North America", "year": 2019, "receiptsUsd": 199365000000.0, "receiptsUsdBillions": 199.37},
+    {"country": "Spain", "code": "ESP", "region": "Europe & Central Asia", "year": 2019, "receiptsUsd": 79611000000.0, "receiptsUsdBillions": 79.61},
+    {"country": "France", "code": "FRA", "region": "Europe & Central Asia", "year": 2019, "receiptsUsd": 63424000000.0, "receiptsUsdBillions": 63.42},
+    {"country": "Thailand", "code": "THA", "region": "East Asia & Pacific", "year": 2019, "receiptsUsd": 59810000000.0, "receiptsUsdBillions": 59.81},
+    {"country": "United Kingdom", "code": "GBR", "region": "Europe & Central Asia", "year": 2019, "receiptsUsd": 52529000000.0, "receiptsUsdBillions": 52.53},
+    {"country": "Italy", "code": "ITA", "region": "Europe & Central Asia", "year": 2019, "receiptsUsd": 49521000000.0, "receiptsUsdBillions": 49.52},
+    {"country": "Japan", "code": "JPN", "region": "East Asia & Pacific", "year": 2019, "receiptsUsd": 46054000000.0, "receiptsUsdBillions": 46.05},
+    {"country": "Australia", "code": "AUS", "region": "East Asia & Pacific", "year": 2019, "receiptsUsd": 45729000000.0, "receiptsUsdBillions": 45.73},
+    {"country": "Germany", "code": "DEU", "region": "Europe & Central Asia", "year": 2019, "receiptsUsd": 41779000000.0, "receiptsUsdBillions": 41.78},
+    {"country": "Macao SAR, China", "code": "MAC", "region": "East Asia & Pacific", "year": 2019, "receiptsUsd": 40591000000.0, "receiptsUsdBillions": 40.59}
+  ]
+}
